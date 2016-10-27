@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sensor_gp_in_lt"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingTop="200dp" >
+
+    <Button
+        android:id="@+id/sensor_gpin1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/gp_in_off"
+        android:clickable="false"
+        android:text="@string/sensor_gpin1_off" />
+
+    <Button
+        android:id="@+id/sensor_gpin2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/gp_in_off"
+        android:clickable="false"
+        android:text="@string/sensor_gpin2_off" />
+
+    <Button
+        android:id="@+id/sensor_gpin3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/gp_in_off"
+        android:clickable="false"
+        android:text="@string/sensor_gpin3_off" />
+
+    <Button
+        android:id="@+id/sensor_gpin4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/gp_in_off"
+        android:clickable="false"
+        android:text="@string/sensor_gpin4_off" />
+
+</LinearLayout>

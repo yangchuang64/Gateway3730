@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="sensor_sample_start_bt" type="id"/>
+    <item name="sensor_sample_stop_bt" type="id"/>
+    <item name="sensor_sample_chart_view" type="id"/>
+    <item name="sensor_sample_display_temperature_bt" type="id"/>
+    <item name="sensor_sample_display_humdity_bt" type="id"/>
+    <item name="sensor_sample_display_hight_bt" type="id"/>
+    <item name="sensor_sample_display_triaxial_x_bt" type="id"/>
+    <item name="sensor_sample_display_triaxial_y_bt" type="id"/>
+    <item name="sensor_sample_display_triaxial_z_bt" type="id"/>
+    <item name="sensor_sample_display_current_double_1_bt" type="id"/>
+    <item name="sensor_sample_display_current_double_2_bt" type="id"/>
+    <item name="sensor_sample_display_voltage_four_1_bt" type="id"/>
+    <item name="sensor_sample_display_voltage_four_2_bt" type="id"/>
+    <item name="sensor_sample_display_voltage_four_3_bt" type="id"/>
+    <item name="sensor_sample_display_voltage_four_4_bt" type="id"/>
+
+</resources>

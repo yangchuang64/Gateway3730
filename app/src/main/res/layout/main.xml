@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/sensor_info_lt"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- <Button -->
+            <!-- android:id="@+id/restart_bt" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="@string/reset" /> -->
+
+            <LinearLayout
+                style="@style/SensorInfoTxTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:text="@string/sensor_name"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+
+                <TextView
+                    android:id="@+id/sensor_name_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sensor_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SensorInfoTxTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:text="@string/sensor_version"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+
+                <TextView
+                    android:id="@+id/sensor_version_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sensor_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SensorInfoTxTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:text="@string/sensor_device_id"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+
+                <TextView
+                    android:id="@+id/sensor_device_id_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sensor_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SensorInfoTxTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:text="@string/sensor_manufac_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+
+                <TextView
+                    android:id="@+id/sensor_manufac_info_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sensor_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SensorInfoTxTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:text="@string/sensor_product_num"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+
+                <TextView
+                    android:id="@+id/sensor_product_num_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sensor_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SensorInfoTxTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="6"
+                    android:text="@string/sensor_channel_no"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+
+                <TextView
+                    android:id="@+id/sensor_channel_no_tx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sensor_info"
+                    android:textSize="@dimen/sensor_info_textview_textsize" />
+            </LinearLayout>
+
+            <!-- <Button -->
+            <!-- android:id="@+id/_bt" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="@string/reset" /> -->
+
+            <LinearLayout
+                android:id="@+id/sensor_control_lt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sensor_display_lt"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" />
+
+        <!-- <RelativeLayout -->
+        <!-- android:id="@+id/sensor_sample_lt" -->
+        <!-- android:layout_width="0dp" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:layout_weight="2" > -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/sensor_sample_chart_lt" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:orientation="horizontal" /> -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/sensor_sample_exact_lt" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentBottom="true" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:orientation="horizontal" /> -->
+        <!-- </RelativeLayout> -->
+    </LinearLayout>
+
+    <Gallery
+        android:id="@+id/node_gl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="bottom" />
+
+</LinearLayout>

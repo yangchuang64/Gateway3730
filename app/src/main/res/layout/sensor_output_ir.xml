@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sensor_output_ir_lt"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="200dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center_horizontal"
+            android:text="电视机"
+            android:textSize="12sp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_television_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="开/关"
+                    android:textColor="#ff0000" />
+
+                <Button
+                    android:id="@+id/sensor_ir_television_signal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="信号源" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_television_vol_decrease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="VOL-" />
+
+                <Button
+                    android:id="@+id/sensor_ir_television_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="菜单" />
+
+                <Button
+                    android:id="@+id/sensor_ir_television_vol_increase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="VOL+" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_television_ch_decrease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="CH-" />
+
+                <Button
+                    android:id="@+id/sensor_ir_television_silence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="静音" />
+
+                <Button
+                    android:id="@+id/sensor_ir_television_ch_increase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="CH+" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center_horizontal"
+            android:text="碟影机"
+            android:textSize="12sp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_dvd_player_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="进/出仓" />
+
+                <Button
+                    android:id="@+id/sensor_ir_dvd_player_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="播放" />
+
+                <Button
+                    android:id="@+id/sensor_ir_dvd_player_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="停止" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_dvd_player_silence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="静音"
+                    android:textColor="#ff0000" />
+
+                <Button
+                    android:id="@+id/sensor_ir_dvd_player_ch_increase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="CH+" />
+
+                <Button
+                    android:id="@+id/sensor_ir_dvd_player_ch_decrease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="CH-" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center_horizontal"
+            android:text="功放机"
+            android:textSize="12sp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_amplifier_silence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="静音" />
+
+                <Button
+                    android:id="@+id/sensor_ir_amplifier_voice_increase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="音量加" />
+
+                <Button
+                    android:id="@+id/sensor_ir_amplifier_voice_decrease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="音量减" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center_horizontal"
+            android:text="空调"
+            android:textSize="12sp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_ari_condition_cool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="凉爽" />
+
+                <Button
+                    android:id="@+id/sensor_ir_ari_condition_comfort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="舒适" />
+
+                <Button
+                    android:id="@+id/sensor_ir_ari_condition_warn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="暖和" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sensor_ir_ari_condition_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ir_bt_bg"
+                    android:ems="4"
+                    android:text="开/关"
+                    android:textColor="#ff0000" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <!-- <Button -->
+    <!-- android:id="@+id/sensor_ir1" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/sensor_output_ir1" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/sensor_ir2" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/sensor_output_ir2" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/sensor_ir3" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/sensor_output_ir3" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/sensor_ir4" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@string/sensor_output_ir4" /> -->
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="udp_config"
+        android:title="@string/gateway_config_udp" >
+        <EditTextPreference
+            android:defaultValue="@string/udp_host_ip_address_default"
+            android:key="host_ip_address"
+            android:title="@string/udp_host_ip_address" />
+        <EditTextPreference
+            android:defaultValue="@string/udp_host_port_address_default"
+            android:key="host_port"
+            android:title="@string/udp_host_port_address" />
+        <EditTextPreference
+            android:defaultValue="@string/udp_local_port_default"
+            android:key="local_port"
+            android:title="@string/udp_local_port" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="serial_config"
+        android:title="@string/gateway_config" >
+        <EditTextPreference
+            android:defaultValue="@string/init_channel_num_default"
+            android:key="init_channel_num"
+            android:title="@string/init_channel_num" />
+        <EditTextPreference
+            android:defaultValue="@string/panid_default"
+            android:key="panid"
+            android:title="@string/panid" />
+        <EditTextPreference
+            android:defaultValue="@string/product_num_default"
+            android:key="product_num"
+            android:title="@string/product_num" />
+    </PreferenceCategory>
+    <!-- <ListPreference -->
+    <!-- android:key="DEVICE" -->
+    <!-- android:persistent="true" -->
+    <!-- android:title="Device" > -->
+    <!-- </ListPreference> -->
+
+</PreferenceScreen>

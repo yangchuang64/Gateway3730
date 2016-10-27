@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- define colors -->
+    <color name="gray">#808080</color>
+    <color name="gray2">#AFAFAFAF</color>
+    <color name="dimgray">#696969</color>
+    <color name="sensor_info">#00a</color>
+
+</resources>

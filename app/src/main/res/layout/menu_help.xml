@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- <TextView -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:background="@drawable/lt_menu_help_bg" /> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lt_searchbar_01"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dip"
+            android:text="使用帮助"
+            android:textColor="#3c3c3c"
+            android:textSize="20sp" />
+
+        <!-- <RelativeLayout -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="20dp" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:src="@drawable/lt_menu_help_line" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:gravity="center" -->
+        <!-- android:text="客服热线" -->
+        <!-- android:textColor="#626262" -->
+        <!-- android:textSize="18sp" /> -->
+        <!-- </RelativeLayout> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:background="@drawable/lt_menu_help_bar2" -->
+        <!-- android:gravity="center" -->
+        <!-- android:text="手机客户端相关问题：021-20906009" -->
+        <!-- android:textColor="#ffffff" -->
+        <!-- android:textSize="15sp" /> -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/lt_menu_help_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="常见问题"
+                android:textColor="#626262"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Q:应用启动后，怎么快速连上传感器?"
+                    android:textColor="#005aff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="A:在传感器已经上电，并且传感器的Channel、PanId和网关协调器的一致时，传感器就可以直接连上网关。如果网关没有搜索到传感器设备，可以尝试重启传感器设备或重启网关协调器。"
+                    android:textColor="#626262"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Q:怎么重启协调器?"
+                    android:textColor="#005aff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="A:按网关菜单键，在弹出的菜单栏里选择resart按键，就可以重新启动协调器了。"
+                    android:textColor="#626262"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Q:重启协调器也不管用怎么办?"
+                    android:textColor="#005aff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="A:如果重启了协调器，传感器还是连不上网关，可以尝试重新配置协调器，或重新启动网关。"
+                    android:textColor="#626262"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Q:如何重启配置协调器?"
+                    android:textColor="#005aff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="A:按网关菜单键，在弹出的菜单栏里选择reset按键，就可以重新配置协调器了。"
+                    android:textColor="#626262"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Q:如何更改协调器的Channel和PanId?"
+                    android:textColor="#005aff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="A:在配置界面，不仅可以配置协调器的Channel，Panid还可以配置Product Number，以及网络通讯的主机Ip地址、主机端口号、本地端口号。"
+                    android:textColor="#626262"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
